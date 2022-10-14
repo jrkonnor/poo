@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<script>
+        let ano=prompt("digite uma ano");
+        if(ano<1930){
+            alert("nao teve copa antes de 1930");
+            else if((ano-1930)%4!=0)
+            alert("nao teve copa");
+        }
+        for(var copa=1930;copa<2022;copa+=4){
+            document.write(copa + "<br>")
+            if(copa==ano)
+            alert("teve copa");
+        }
+        if(ano>=2022)
+            alert("ainda nao foi realizado copa do mundo");
+</script>
+</html>

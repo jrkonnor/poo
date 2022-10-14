@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Par</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        let qtde, contpar = 0, contimpar = 0; 
+        qtde = prompt("Quantos números");
+        for(var i=0; i<qtde; i++){
+            var number = prompt("Digite um número");
+            if(number%2 == 0)
+            contpar++;
+            else
+            contimpar++;
+        }
+        alert("Quantidade de par: " + contpar + "\n Quantidade de ímpar: " + contimpar);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
